@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		4D80CA1F213AEFBF00E9384A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D80CA1E213AEFBF00E9384A /* AppDelegate.swift */; };
 		4D80CA21213AEFBF00E9384A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D80CA20213AEFBF00E9384A /* ViewController.swift */; };
-		4D80CA24213AEFBF00E9384A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D80CA22213AEFBF00E9384A /* Main.storyboard */; };
 		4D80CA27213AEFBF00E9384A /* RadioterapApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D80CA25213AEFBF00E9384A /* RadioterapApp.xcdatamodeld */; };
 		4D80CA29213AEFC200E9384A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D80CA28213AEFC200E9384A /* Assets.xcassets */; };
 		4D80CA2C213AEFC200E9384A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D80CA2A213AEFC200E9384A /* LaunchScreen.storyboard */; };
+		4D80CA34213AF69B00E9384A /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D80CA33213AF69B00E9384A /* MonthView.swift */; };
+		4D80CA36213AFDAF00E9384A /* WeeksdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D80CA35213AFDAF00E9384A /* WeeksdaysView.swift */; };
+		4D80CA38213AFF9000E9384A /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D80CA37213AFF9000E9384A /* CalenderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D80CA1B213AEFBF00E9384A /* RadioterapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioterapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D80CA1E213AEFBF00E9384A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D80CA20213AEFBF00E9384A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4D80CA23213AEFBF00E9384A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D80CA26213AEFBF00E9384A /* RadioterapApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RadioterapApp.xcdatamodel; sourceTree = "<group>"; };
 		4D80CA28213AEFC200E9384A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D80CA2B213AEFC200E9384A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D80CA2D213AEFC200E9384A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D80CA33213AF69B00E9384A /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		4D80CA35213AFDAF00E9384A /* WeeksdaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeksdaysView.swift; sourceTree = "<group>"; };
+		4D80CA37213AFF9000E9384A /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				4D80CA1E213AEFBF00E9384A /* AppDelegate.swift */,
 				4D80CA20213AEFBF00E9384A /* ViewController.swift */,
-				4D80CA22213AEFBF00E9384A /* Main.storyboard */,
 				4D80CA28213AEFC200E9384A /* Assets.xcassets */,
 				4D80CA2A213AEFC200E9384A /* LaunchScreen.storyboard */,
 				4D80CA2D213AEFC200E9384A /* Info.plist */,
 				4D80CA25213AEFBF00E9384A /* RadioterapApp.xcdatamodeld */,
+				4D80CA33213AF69B00E9384A /* MonthView.swift */,
+				4D80CA35213AFDAF00E9384A /* WeeksdaysView.swift */,
+				4D80CA37213AFF9000E9384A /* CalenderView.swift */,
 			);
 			path = RadioterapApp;
 			sourceTree = "<group>";
@@ -127,7 +133,6 @@
 			files = (
 				4D80CA2C213AEFC200E9384A /* LaunchScreen.storyboard in Resources */,
 				4D80CA29213AEFC200E9384A /* Assets.xcassets in Resources */,
-				4D80CA24213AEFBF00E9384A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +145,16 @@
 			files = (
 				4D80CA21213AEFBF00E9384A /* ViewController.swift in Sources */,
 				4D80CA1F213AEFBF00E9384A /* AppDelegate.swift in Sources */,
+				4D80CA38213AFF9000E9384A /* CalenderView.swift in Sources */,
+				4D80CA36213AFDAF00E9384A /* WeeksdaysView.swift in Sources */,
 				4D80CA27213AEFBF00E9384A /* RadioterapApp.xcdatamodeld in Sources */,
+				4D80CA34213AF69B00E9384A /* MonthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4D80CA22213AEFBF00E9384A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D80CA23213AEFBF00E9384A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4D80CA2A213AEFC200E9384A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +291,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.andreaem.RadioterapApp;
+				PRODUCT_BUNDLE_IDENTIFIER = it.andreaem.RadioterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +309,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.andreaem.RadioterapApp;
+				PRODUCT_BUNDLE_IDENTIFIER = it.andreaem.RadioterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
